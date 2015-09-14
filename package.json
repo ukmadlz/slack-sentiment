@@ -1,0 +1,29 @@
+{
+  "name": "slack-sentiment",
+  "version": "0.0.1",
+  "description": "Get the details for a public set of Slack conversations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukmadlz/slack-sentiment.git"
+  },
+  "author": "Mike Elsmore <mike@elsmore.me>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ukmadlz/slack-sentiment/issues"
+  },
+  "homepage": "https://github.com/ukmadlz/slack-sentiment#readme",
+  "dependencies": {
+    "argparse": "^1.0.2",
+    "cloudant": "^1.3.0",
+    "dotenv": "^1.2.0",
+    "hapi": "^10.0.0",
+    "node-dir": "^0.1.9",
+    "request": "^2.61.0"
+  }
+}
